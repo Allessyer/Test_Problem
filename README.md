@@ -49,7 +49,7 @@ where `filename` - path to the file where we count the 10 most common words, `ou
 
 `dracura.txt` - sample file, which can be used to test correctness of above bash scripts.
 
-To run both scripts inside Docker container, you need to have `Dockerfile` and put in in the same directory as `dracura.txt`, `script_task3_1.sh`, `script_task3_2.sh` :
+To run both scripts inside Docker container, you need to have `Dockerfile` and put in in the same directory as `dracura.txt`, `script_task3_1.sh` and `script_task3_2.sh`. Then run the following commands:
 
 ```
 docker pull ubuntu
