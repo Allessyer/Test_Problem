@@ -28,8 +28,6 @@ python invitation_list.py
 
 To test the algorithm run `Burnaev_lab_task_2.ipynb` file, which runs it 10 times and print results of each 10 experiment. 
 
-To run localy
-
 ## Task 3. Bash and Docker
 
 `script_task3_1.sh` - count how many times each word occurs in the file. The result of the count is displayed on the screen.
