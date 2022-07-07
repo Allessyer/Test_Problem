@@ -3,7 +3,7 @@
 
 ## Task 2. Graphs
 
-`graph.py` - consists of class Graph() and Vertex(). Class Graph() has the following methods:
+`graph.py` - consists of class Graph and Vertex. Class Graph has the following methods:
 - А. Adding a node with some information.
 - Б. Adding an edge between two nodes;
 - B. Generating a random graph;
