@@ -11,7 +11,7 @@ for i in `seq 10`
 do
         word=$(cat $filename |tr '[:space:]' '[\n*]'| tr -d [:punct:] |  tr '[:upper:]' '[:lower:]' | sed '/^$/d' | sort | uniq -c | sort -nr | head -$i | tail -n 1 | awk '{print $2}')
         number=$(cat $filename |tr '[:space:]' '[\n*]'| tr -d [:punct:] |  tr '[:upper:]' '[:lower:]' | sed '/^$/d' | sort | uniq -c | sort -nr | head -$i | tail -n 1 | awk '{print $1}')
-	mkdir "$word"_"$number"
-	echo "Created directory '$word'_'$number'"
-	mv "$word"_"$number" $output
+	touch "$word"_"$number".txt
+	echo Created file "$word"_"$number".txt
+	mv "$word"_"$number".txt $output
 done
