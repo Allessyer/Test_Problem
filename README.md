@@ -20,3 +20,5 @@ invitation_list.py file creates random graph, plot it and creates the most optim
 <p align="center">   
    <em> Fig.1 Result of the "invitation_list.py" algorithm </em>
 </p>
+
+To test the algorithm run "Burnaev_lab_task_2.ipynb" file, which runs it 10 times and print results of each 10 experiment. 
