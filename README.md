@@ -32,16 +32,13 @@ script_task3_2.sh - takes the 10 most common words and create empty files with t
 To run the first script on bash, do the following:
 ```
 bash script_task3_1.sh
-
 ```
 
 To run second script on bash, do the following:
 
 ```
 bash script_task3_2.sh $filename $output
-
 ```
-where filename - path to the file where we count the 10 most common words, 
-output - name of the directory where all created files will be saved.
+where *filename* - path to the file where we count the 10 most common words, *output* - name of the directory where all created files will be saved.
 
 
