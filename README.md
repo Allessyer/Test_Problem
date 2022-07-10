@@ -1,5 +1,15 @@
 # Test_Problem
 
+## Task 1. Diffusion Model
+
+To see results of the inference of the model, do the following:
+
+1. add a shortcut of the [weights folder](https://drive.google.com/drive/folders/1d9T0Y8p6iVE902KW82cs-pe2Egk-qdN4?usp=sharing) to the Google Disk
+2. open `Burnaev_lab_task_1.ipynb` notebook in Google Colab
+3. go to the Test part 
+4. Inside variable `PATH_TO_WEIGHTS` put your real path to the weight folder in Google Dist 
+5. run all cells below Test header
+
 
 ## Task 2. Graphs
 
