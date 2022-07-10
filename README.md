@@ -11,12 +11,16 @@ To see results of the inference of the model, do the following:
 5. run all cells below Test header
 
 Inside weight folder there are two files:
-1. `ddpm_floodnet_short.pth` - weights of trained DDPM model on 20% of FloodNet Dataset.
-2. `ddpm_floodnet.pth`- weights of trained DDPM model on 100% of FloodNet Dataset.
+1. `ddpm_floodnet_short.pth` - weights of trained DDPM model on 20% of FloodNet Dataset with 100 epoches.
+2. `ddpm_floodnet.pth`- weights of trained DDPM model on 100% of FloodNet Dataset with 20 epoches.
 
 <p align="center">
   <img src="figures/floodnet.png" width="300">
   <img src="figures/floodnet_short.png" width="300">
+</p>
+<p align="center">   
+   <em> a. 100% of FloodNet dataset on 20 epoches. </em>
+   <em> b. 20% of FloodNet dataset on 100 epoches. </em>
 </p>
 <p align="center">   
    <em> Fig.1 Results of the DDPM on FloodNet dataset </em>
