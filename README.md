@@ -14,6 +14,14 @@ Inside weight folder there are two files:
 1. `ddpm_floodnet_short.pth` - weights of trained DDPM model on 20% of FloodNet Dataset.
 2. `ddpm_floodnet.pth`- weights of trained DDPM model on 100% of FloodNet Dataset.
 
+<p align="center">
+  <img src="figures/floodnet.png" width="300">
+  <img src="figures/floodnet_short.png" width="300">
+</p>
+<p align="center">   
+   <em> Fig.1 Results of the DDPM on FloodNet dataset </em>
+</p>
+
 
 ## Task 2. Graphs
 
@@ -37,7 +45,7 @@ python invitation_list.py
   <img src="figures/result_task_2.jpeg" width="500">
 </p>
 <p align="center">   
-   <em> Fig.1 Result of the "invitation_list.py" algorithm </em>
+   <em> Fig.2 Result of the "invitation_list.py" algorithm </em>
 </p>
 
 To test the algorithm run `Burnaev_lab_task_2.ipynb` file, which runs it 10 times and print results of each 10 experiment. 
