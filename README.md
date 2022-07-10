@@ -10,6 +10,10 @@ To see results of the inference of the model, do the following:
 4. Inside variable `PATH_TO_WEIGHTS` put your real path to the weight folder in Google Dist 
 5. run all cells below Test header
 
+Inside weight folder there are two files:
+1. `ddpm_floodnet_short.pth` - weights of trained DDPM model on 20% of FloodNet Dataset.
+2. `ddpm_floodnet.pth`- weights of trained DDPM model on 100% of FloodNet Dataset.
+
 
 ## Task 2. Graphs
 
